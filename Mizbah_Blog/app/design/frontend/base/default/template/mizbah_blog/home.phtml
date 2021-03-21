@@ -1,0 +1,22 @@
+<?php
+$posts = $this->getPosts();
+$front_name = $this->getFrontName();
+?>
+<div id="mizbah_blog_home">
+<div class="post_home"><a href="<?php echo '/'.$front_name ?>">Blog</a></div>
+<?php foreach($posts as $post):?>
+    <div class="post_list">
+            <div class="author_blog">
+                <p>Author: <span><?php echo $post['author']; ?></span></p>
+            </div>
+            <h3><?php echo $post['title']; ?></h3>
+            <div class="description_blog">
+            <?php 
+                $short_description = $post['short_description'];
+                echo substr($short_description,0,100).'...'; 
+            ?>
+            </div>
+            <div class="read_more"><a href="<?php echo $front_name.'/post/view?id='.$post['post_id'] ?>">Read More</a></div>
+    </div>
+<?php endforeach; ?>
+</div>

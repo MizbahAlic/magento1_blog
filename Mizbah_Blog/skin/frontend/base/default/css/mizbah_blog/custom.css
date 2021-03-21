@@ -1,0 +1,130 @@
+/*---------------- VIEW ------------------------*/
+#mizbah_blog h3 {
+border-top: 3px solid #00C3E6;
+border-bottom: 3px solid #00C3E6;
+text-align: center;
+color: #000000;
+}
+#mizbah_blog .description_blog{
+text-align: justify;
+font-size: 18px;
+line-height: 1.5;
+margin-top: 5%;
+}
+#mizbah_blog .author_blog
+{
+padding-top: 5%;
+}
+#mizbah_blog .author_blog span{
+font-weight: 600;
+color: #000000;
+} 
+/*---------------- POSTS ------------------------*/
+#mizbah_posts h3 {
+    border-top: 3px solid #00C3E6;
+    border-bottom: 3px solid #00C3E6;
+    text-align: center;
+    color: #000000;
+}
+#mizbah_posts .post_list{
+    display: inline-block;
+    padding: 10px 15px 15px;
+    margin: 7px;
+    background: #FFF;
+    border: 1px solid #D9D9D9;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0px 3px;
+    -webkit-box-shadow: rgb(0 0 0 / 10%) 0 0px 3px;
+    box-shadow: rgb(0 0 0 / 10%) 0 0px 3px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    -webkit-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+    width: 47%;
+}
+#mizbah_posts .read_more a{
+    text-decoration: none;
+    color: #50a4d0;
+    border: solid 1px #000000;
+    float: right;
+    padding: 5px 10px;
+}
+#mizbah_posts .description_blog{
+    position: relative;
+    display: block;
+    background: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    text-align: left;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 12px 0;
+    height: 150px;
+}
+#mizbah_posts .author_blog span{
+    font-weight: 600;
+    color: #000000;
+}
+/*---------------- HOME ------------------------*/
+#mizbah_blog_home .post_home{
+text-align: center;
+font-size: 30px;
+padding-bottom: 10px;
+}
+#mizbah_blog_home .post_home a:hover {
+color: #2e8ab8;
+text-decoration: none;
+}
+#mizbah_blog_home h3 {
+border-top: 3px solid #00C3E6;
+border-bottom: 3px solid #00C3E6;
+text-align: center;
+color: #000000;
+}
+#mizbah_blog_home  .post_list{
+display: inline-block;
+padding: 10px 15px 15px;
+margin: 7px;
+background: #FFF;
+border: 1px solid #D9D9D9;
+-moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0px 3px;
+-webkit-box-shadow: rgb(0 0 0 / 10%) 0 0px 3px;
+box-shadow: rgb(0 0 0 / 10%) 0 0px 3px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+-moz-transition: padding 0.5s ease;
+-o-transition: padding 0.5s ease;
+-webkit-transition: padding 0.5s ease;
+transition: padding 0.5s ease;
+width: 23%;
+}
+#mizbah_blog_home  .read_more a{
+text-decoration: none;
+color: #50a4d0;
+border: solid 1px #000000;
+float: right;
+padding: 5px 10px;
+}
+#mizbah_blog_home  .description_blog{
+position: relative;
+display: block;
+background: #ffffff;
+color: #333333;
+text-decoration: none;
+text-align: left;
+overflow: hidden;
+text-align: justify;
+font-size: 18px;
+line-height: 1.5;
+padding: 12px 0;
+height: 150px;
+}
+#mizbah_blog_home  .author_blog span{
+font-weight: 600;
+color: #000000;
+}

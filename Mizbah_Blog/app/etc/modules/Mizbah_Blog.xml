@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mizbah_Blog>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Mizbah_Blog>
+    </modules>
+</config>

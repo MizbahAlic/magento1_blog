@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/mizbah_blog/custom.css</stylesheet></action>
+        </reference>
+    </default>
+    <cms_index_index translate="label">
+        <label>Blog</label>
+        <reference name="content">
+            <block type="mizbah_blog/render" name="home_mizbah_blog_post" template="mizbah_blog/home.phtml"/>
+        </reference>
+    </cms_index_index>
+    <mizbah_blog_index_index translate="label" module="mizbah_blog">
+        <label>Posts list</label>
+        <update handle="page_two_columns_right"/>
+        <reference name="content">
+            <block type="mizbah_blog/post" name="posts_view" template="mizbah_blog/posts.phtml"/>
+        </reference>
+    </mizbah_blog_index_index>
+    <mizbah_blog_post_view translate="label" module="mizbah_blog">
+        <label>Post view</label>
+        <update handle="page_two_columns_right"/>
+        <reference name="content">
+            <block type="mizbah_blog/view" name="post_view" template="mizbah_blog/view.phtml"/>
+        </reference>
+    </mizbah_blog_post_view>
+</layout>
+
+

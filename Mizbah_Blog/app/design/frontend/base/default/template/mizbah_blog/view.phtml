@@ -1,0 +1,12 @@
+<?php $post = $this->getCurrentPost(); ?>
+<div id="mizbah_blog">
+<h3><?php echo $post['title']; ?></h3>
+<div class="post_list">
+        <div class="description_blog">
+            <?php echo $post['description'];?>
+        </div>
+        <div class="author_blog">
+            <p>Author: <span><?php echo $post['author']; ?></span></p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_post_index>
+        <reference name="content">
+            <block type="mizbah_blog/adminhtml_post" template="mizbah_blog/grid.phtml" name="mizbah_blog_grid" />
+        </reference>
+    </adminhtml_post_index>   
+</layout>
